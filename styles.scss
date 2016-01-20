@@ -1,0 +1,92 @@
+body {
+  // background-image: url('http://www.lowcountryent.com/images/_movie_1600_800_3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  font-family: trebuchet;
+}
+.experienceContainer {
+  // .jobs{
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+  img{
+    width: 200px;
+  }
+}
+
+.projectsContainer{
+  width: 80%;
+  margin: 0 auto;
+  img{
+    width: 200px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  .projectContent{
+    display: flex;
+    width: 100%;
+    img{
+      width: 200px;
+      height: 300px;
+      border-radius: 5px;
+    }
+  }
+}
+.contactNav{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    a{
+      margin: 10px;
+    }
+  }
+}
+.topNav {
+  background-color: #827867;
+  display: flex;
+  justify-content: center;
+
+}
+.nav-tabs > li > a {
+  color: #1b3e49;
+  font-family: futura;
+}
+iframe{
+  border-radius: 20px;
+   border-style: solid;
+   border-color: black;
+   border-width: thick;
+}
+
+.homeContainer {
+  width: 80%;
+  margin: 0 auto;
+  img{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 150px;
+  }
+}
+
+/////////EXPERIENCE //////
+.experienceContainer{
+  width: 80%;
+  margin: 0 auto;
+  .experienceContent{
+    display: flex;
+    margin: 0 auto;
+  }
+}

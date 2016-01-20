@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blake Guilloud</title>
+</head>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<body ng-app="blakeGuilloud">
+  <h1 class="name">Blake Guilloud</h1>
+  <nav class="contactNav">
+    <div class="contact">
+      <a href="mailto:fbguillo@gmail.com">Email</a>
+      <a href="">843.812.6962</a>
+      <a href="http://www.github.com/blakeGuilloud">github</a>
+      <a href="http://www.linkedin.com/in/blakeGuilloud">linkedin</a>
+    </div>
+  </nav>
+  <nav ng-controller="mainController">
+    <div class="topNav">
+      <ul class="nav nav-tabs menuItems">
+        <li><a href="#/">Me</a></li>
+        <li><a href="#/experience">Experience</a></li>
+        <li><a href="#/projects">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ng-view></ng-view>
+  <nav class="contactNav">
+    <div class="contact">
+      <a href="mailto:fbguillo@gmail.com">Email</a>
+      <a href="">843.812.6962</a>
+      <a href="http://www.github.com/blakeGuilloud">github</a>
+      <a href="http://www.linkedin.com/in/blakeGuilloud">linkedin</a>
+    </div>
+  </nav>
+
+  <script src="node_modules/angular/angular.js" charset="utf-8"></script>
+  <script src="node_modules/angular-route/angular-route.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+  <script src="controller.js" charset="utf-8"></script>
+
+</body>
+</html>

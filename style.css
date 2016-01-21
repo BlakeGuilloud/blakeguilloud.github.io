@@ -16,6 +16,9 @@ h1 {
 p {
   font-family: trebuchet; }
 
+li {
+  font-family: trebuchet; }
+
 .contactNav {
   display: flex;
   justify-content: center;

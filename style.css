@@ -2,31 +2,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%; }
+  height: 100%;
+  background-color: #adaaad; }
 
 .name {
   display: flex;
   justify-content: center;
   font-family: trebuchet; }
 
-.experienceContainer img {
-  width: 200px; }
+h1 {
+  font-family: trebuchet; }
 
-.projectsContainer {
-  width: 80%;
-  margin: 0 auto; }
-  .projectsContainer img {
-    width: 200px; }
-  .projectsContainer h1 {
-    display: flex;
-    justify-content: center; }
-  .projectsContainer .projectContent {
-    display: flex;
-    width: 100%; }
-    .projectsContainer .projectContent img {
-      width: 200px;
-      height: 300px;
-      border-radius: 5px; }
+p {
+  font-family: trebuchet; }
 
 .contactNav {
   display: flex;
@@ -39,7 +27,6 @@ body {
       margin: 10px; }
 
 .topNav {
-  background-color: #827867;
   display: flex;
   justify-content: center; }
 
@@ -47,25 +34,60 @@ body {
   color: #1b3e49;
   font-family: futura; }
 
-iframe {
-  border-radius: 20px;
-  border-style: solid;
-  border-color: black;
-  border-width: thick; }
+.view-animate-container {
+  position: relative; }
+
+.view-animate {
+  padding: 10px; }
+
+.view-animate.ng-enter, .view-animate.ng-leave {
+  transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px; }
+
+.view-animate.ng-enter {
+  left: 100%; }
+
+.view-animate.ng-enter.ng-enter-active {
+  left: 0; }
+
+.view-animate.ng-leave.ng-leave-active {
+  left: -100%; }
+
+.projectsContainer {
+  width: 60%;
+  margin: 0 auto; }
+  .projectsContainer h1 {
+    display: flex;
+    justify-content: center; }
+  .projectsContainer .projectContent {
+    display: flex;
+    width: 100%; }
 
 .homeContainer {
-  width: 80%;
+  width: 40%;
   margin: 0 auto; }
   .homeContainer img {
     display: flex;
     align-items: center;
     margin: 0 auto;
     width: 200px;
-    border-radius: 150px; }
+    border-radius: 150px;
+    border-style: solid;
+    border-width: thick;
+    border-color: #e0dbd4; }
 
 .experienceContainer {
-  width: 80%;
-  margin: 0 auto; }
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 50px;
+  padding: 20px; }
   .experienceContainer .experienceContent {
     display: flex;
     margin: 0 auto; }

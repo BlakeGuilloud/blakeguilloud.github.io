@@ -2,12 +2,16 @@
   'use strict';
   angular
     .module('blakeGuilloud', [
-      'ngRoute'
+      'ngRoute',
+      'ngAnimate'
     ])
     .config(function($routeProvider){
       $routeProvider
-        .when('/', {
-          templateUrl: 'views/home.html'
+        .when('/',{
+          templateUrl: 'views/me.html'
+        })
+        .when('/me', {
+          templateUrl: 'views/me.html'
         })
         .when('/experience',{
           templateUrl: 'views/experience.html'

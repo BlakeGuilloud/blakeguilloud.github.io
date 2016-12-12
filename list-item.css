@@ -3,3 +3,12 @@
   font-size: 1.5em;
   list-style-type: none;
 }
+
+.list-item-offset {
+  /*display: none;*/
+  font-family: 'Amatic SC', cursive;
+  font-size: 1rem;
+  padding: .5rem;
+  margin-left: 1rem;
+  width: 80%;
+}

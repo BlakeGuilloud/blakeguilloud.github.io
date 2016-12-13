@@ -19,13 +19,16 @@
   flex-direction: column;
 }
 .panel1 {
-  background-image: url(./images/owl.jpg);
+  background-color: #477ec6;
+  /*background-image: url(./images/owl.jpg);*/
 }
 .panel2 {
-  background-image: url(./images/cabin.jpg);
+  background-color: #491f29;
+  /*background-image: url(./images/cabin.jpg);*/
 }
 .panel3 {
-  background-image: url(./images/waves.jpg);
+  background-color: #477ec6;
+  /*background-image: url(./images/waves.jpg);*/
 }
 
 .panel > * {

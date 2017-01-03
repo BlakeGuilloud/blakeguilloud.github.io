@@ -10,7 +10,7 @@ p {
 
 section {
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +53,6 @@ section:nth-of-type(5) {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  /*max-height: 80vh;*/
   opacity: .9;
 }
 
@@ -72,4 +71,8 @@ section:nth-of-type(5) {
   color: white;
   display: flex;
   justify-content: space-between;
+}
+
+.root {
+  overflow: scroll;
 }

@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  section {
+    min-height: 100vh;
+    height: auto;
+  }
+  .item {
+    padding: .5rem;
+  }
+}

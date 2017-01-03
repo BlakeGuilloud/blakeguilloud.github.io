@@ -2,53 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Blake Guilloud</title>
-  <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./panels.css">
-
+  <title>CSS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/item.css">
+  <link rel="stylesheet" href="./styles/media.css">
 </head>
 <body>
-  <div class="header">
-    <div></div>
-    Blake Guilloud
-    <div></div>
-  </div>
 
-  <div id="panels">
+  <section>
+    <div class="header">
+      <p>Blake Guilloud</p>
+      <div>Software Engineer</div>
+      <div>Charleston, SC</div>
+    </div>
+    <a class="button-nav" href="#engineer">
+      <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+    </a>
+  </section>
 
-    <div class="panel panel1">
-      <p>
-        <a href="http://github.com/blakeGuilloud">Github</a>
-      </p>
+  <section id="engineer">
+    <div class="header">
+      <p>Engineer</p>
+    </div>
+
+    <div id="engineer-root"></div>
+
+    <a class="button-nav" href="#portfolio">
+      <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <section id="portfolio">
+    <div>
       <p>Portfolio</p>
-      <p>
-        <a href="./projects.html">Projects</a>
-      </p>
     </div>
 
-    <div class="panel panel2">
-      <p>
-        <a href="./work.html">Work</a>
-      </p>
-      <p>About</p>
-      <p>
-        <a href="./skills.html">Skills</a>
-      </p>
+    <div id="portfolio-root"></div>
+
+    <a class="button-nav" href="#skills">
+      <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <section id="skills">
+    <div class="header">
+      <p>Skills</p>
     </div>
 
-    <div class="panel panel3">
-      <p>
-        <a href="https://linkedin.com/in/blakeguilloud">LinkedIn</a>
-      </p>
-      <p>Contact</p>
-      <p>
-        <a href="#/contact">Email</a>
-      </p>
+    <div id="skills-root"></div>
+
+    <a class="button-nav" href="#contact">
+      <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <section id="contact">
+    <div class="header">
+      <p>Blake Guilloud</p>
+      <div>Software Engineer</div>
+      <div>Charleston, SC</div>
     </div>
+    <div class="footer">
+      <a href="http://github.com/blakeGuilloud">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="http://linkedin.com/blakeGuilloud">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="http://github.com/blakeGuilloud">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+  </section>
 
-  </div>
-
-  <script src="./app.js" charset="utf-8"></script>
+  <script src="./scripts/engineer.js" charset="utf-8"></script>
+  <script src="./scripts/portfolio.js" charset="utf-8"></script>
+  <script src="./scripts/skills.js" charset="utf-8"></script>
+  <script src="./scripts/app.js" charset="utf-8"></script>
 </body>
 </html>

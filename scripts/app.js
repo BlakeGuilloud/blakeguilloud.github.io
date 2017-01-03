@@ -7,14 +7,13 @@
 
   const page = {
     init: () => {
-      page.about();
       page.engineer();
       page.portfolio();
       page.skills();
     },
 
-    about: () => {
-      console.log('aobut function');
+    mount: (id, markup) => {
+      document.getElementById([id]).innerHTML = markup;
     },
 
     engineer: () => {
@@ -28,7 +27,7 @@
         `
       });
 
-      document.getElementById('engineer-root').innerHTML = markup;
+      page.mount('engineer-root', markup);
     },
 
     portfolio: () => {
@@ -90,7 +89,7 @@
         `;
       });
 
-      document.getElementById('portfolio-root').innerHTML = markup;
+      page.mount('portfolio-root', markup);
     },
 
     skills: () => {
@@ -113,7 +112,7 @@
         `;
       });
 
-      document.getElementById('skills-root').innerHTML = markup;
+      page.mount('skills-root', markup);
     },
 
   };

@@ -1,0 +1,130 @@
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: 'Alegreya SC', serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.m-b-t-10 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.lineBreak {
+  border-top: 1px solid gray;
+  height: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__name {
+  font-size: 36px;
+}
+
+.header__title {
+  font-size: 24px;
+}
+
+.header__contact {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.about {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__image {
+  max-width: 100px;
+  max-height: 100px;
+  /*border: 1px solid black;*/
+  border-radius: 90px;
+}
+
+.about__blurb {
+  margin-left: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.experience {
+  margin-right: 30px;
+  margin-top: 10px;
+  /*max-width: 500px;*/
+}
+
+.experience__header {
+  font-size: 36px;
+}
+
+.experience__company {
+  margin-top: 10px;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.experience__title {
+  font-size: 22px;
+}
+
+.experience__duration {
+  font-size: 18px;
+}
+
+.experience__blurb {
+  margin-top: 10px;
+}
+
+.projects {
+  margin-left: 30px;
+  /*max-width: 500px;*/
+}
+
+
+@media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+    }
+    .about {
+      flex-direction: column;
+    }
+    .about__blurb {
+      margin-top: 10px;
+      margin-left: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column;
+  }
+  .experience {
+    margin-left: 0;
+  }
+  .projects {
+    margin-left: 0;
+  }
+}

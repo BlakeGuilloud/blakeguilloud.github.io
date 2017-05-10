@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Alegreya SC', serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/*****
+ Logo
+******/
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__text-name {
+  font-size: 36px;
+  margin: 10px;
+}
+
+.logo__text-title {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.logo__image {
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+}
+
+
+/*********
+Navigation
+**********/
+.naviation {
+
+}
+
+.navigation__resume {
+
+}

@@ -2,7 +2,7 @@
   "name": "blakeguilloud.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://blakeguilloud.github.io",
+  "homepage": "https://blakeguilloud.github.io/",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -14,6 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "pages": "yarn build && gh-pages -d build",
     "deploy": "yarn build && av1 deploy reactApp blakeguilloud default && gh-pages -d build"
   },
   "devDependencies": {

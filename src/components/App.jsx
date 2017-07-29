@@ -34,7 +34,8 @@ class App extends Component {
                   <header className="major">
                     <h2>I'm Blake</h2>
                   </header>
-                  <p>I take pride in maintaining a working knowledge of modern web technologies. </p>
+                  Longtime Charleston resident orginally from Beaufort, SC, I have recently made the move to Greensboro, NC as my wife, Carolyn, begins her medical residency at Cone Health Hospital.
+                  I work remotely while my two wonderful dogs, Kylo and Leia, keep me company.
                 </div>
                 <span className="image">
                   <img src="http://www.fillmurray.com/200/200" alt="" />
@@ -146,11 +147,12 @@ class App extends Component {
             <section id="interests" className="main special">
               <header className="major">
                 <h2>Interests</h2>
-                <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+                I take pride in maintaining a working knowledge of modern web technologies.
               </header>
               
-              <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+              <p className="content">
+                I am infatuated with bleeding edge technology in the web space
+              </p>
             </section>
 
         </div>

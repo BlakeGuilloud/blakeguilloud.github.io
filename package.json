@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && av1 deploy reactApp blakeguilloud default && gh-pages -d build"
+    "deploy": "yarn build && av1 deploy reactApp blakeguilloud default"
   },
   "devDependencies": {
     "av1-scripts": "^1.0.6"

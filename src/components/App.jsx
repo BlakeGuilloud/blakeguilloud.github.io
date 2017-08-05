@@ -11,7 +11,6 @@ class App extends Component {
       <div id="wrapper">
 
         <header id="header" className="alt">
-          {/* <span className="logo"><img src="JaxIcon.png" alt="" /></span> */}
           <h1>Blake Guilloud</h1>
           <img className="header__logo-image" src={logo} alt="logo" />
           <p>Software Developer</p>

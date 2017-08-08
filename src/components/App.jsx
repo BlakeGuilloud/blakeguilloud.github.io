@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './Media.css';
 import logo from './logo.png';
+import profilePhoto from './profile.jpg';
 
 require('smoothscroll');
 
@@ -21,7 +22,7 @@ class App extends Component {
             <li><a href="#about" className="active">About Me</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Recent Projects</a></li>
-            <li><a href="#interests">Interests</a></li>
+            {/* <li><a href="#interests">Interests</a></li> */}
           </ul>
         </nav>
 
@@ -35,9 +36,13 @@ class App extends Component {
                   </header>
                   Longtime Charleston resident orginally from Beaufort, SC, I have recently made the move to Greensboro, NC as my wife, Carolyn, begins her medical residency at Cone Health Hospital.
                   I work remotely while my two wonderful dogs, Kylo and Leia, keep me company.
+                  <br />
+                  <br />
+                  I am a passionate full stack developer, and take pride in maintaining a working knowledge of modern web technologies including the array of front end javascript frameworks, the ever-evolving node ecoystem, and serverless architecture in cloud computing.
+                  I am always seeking to expand my knowledge base while maintaining exceptional soft skills.
                 </div>
                 <span className="image">
-                  <img src="http://www.fillmurray.com/200/200" alt="" />
+                  <img src={profilePhoto} alt="" />
                 </span>
               </div>
             </section>
@@ -143,16 +148,11 @@ class App extends Component {
               </div>
             </section>
 
-            <section id="interests" className="main special">
+            {/* <section id="interests" className="main special">
               <header className="major">
                 <h2>Interests</h2>
-                I take pride in maintaining a working knowledge of modern web technologies.
               </header>
-              
-              <p className="content">
-                I am infatuated with bleeding edge technology in the web space
-              </p>
-            </section>
+            </section> */}
 
         </div>
 

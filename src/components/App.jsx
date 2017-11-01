@@ -59,8 +59,15 @@ class App extends Component {
                 </p>
               </div>
               <div className="item">
+                <h2>Tech Talent South</h2>
+                <h4>Remote Tutor [Oct. 2017 - Present]</h4>
+                <p>
+                  Teaching and tutoring remote students of all skill levels with a primary focus in fundamental web development.
+                </p>
+              </div>
+              <div className="item">
                 <h2>Blue Cactus Web Solutions</h2>
-                <h4>Contractor and Consultant [Nov. 2016 - Present]</h4>
+                <h4>Contractor and Consultant [Nov. 2016 - May 2017]</h4>
                 <p>
                   Independent contracting for a small web development firm. Responsible for building web applications from the ground up, while making product and design decisions based on the needs of the client.
                 </p>
@@ -94,6 +101,24 @@ class App extends Component {
               </div>
               <div className="item">
                 <div className="item__header">
+                  <h2>Ganon</h2>
+                  <span className="item__header-pipe">
+                    |
+                  </span>
+                  <span>Functional JS Library</span>
+                  <span className="item__header-pipe">
+                    |
+                  </span>
+                  <span>
+                    <a className="item__header-url" href="http://github.com/BlakeGuilloud/ganon">http://github.com/BlakeGuilloud/ganon</a>
+                  </span>
+                </div>
+                <p>
+                  An open source project I founded in the spirit of Hacktoberfest. The concept is to solve a problem, and then create one for someone else. It has resulted in a library containing hundreds of different javascript methods. Powered by amazing contributors.
+                </p>
+              </div>
+              <div className="item">
+                <div className="item__header">
                   <h2>RCC-CLI</h2>
                   <span className="item__header-pipe">
                     |
@@ -121,7 +146,7 @@ class App extends Component {
                     |
                   </span>
                   <span>
-                    <a className="item__header-url" href="https://www.npmjs.com/package/rcc-cli">https://www.npmjs.com/package/rcc-cli</a>
+                    <a className="item__header-url" href="https://www.npmjs.com/package/rhaegar">https://www.npmjs.com/package/rcc-cli</a>
                   </span>
                 </div>
                 <p>

@@ -119,6 +119,24 @@ class App extends Component {
               </div>
               <div className="item">
                 <div className="item__header">
+                  <h2>pingen.io</h2>
+                  <span className="item__header-pipe">
+                    |
+                  </span>
+                  <span>Multi Factor Authentication</span>
+                  {/* <span className="item__header-pipe">
+                    |
+                  </span>
+                  <span>
+                    <a className="item__header-url" href="http://github.com/BlakeGuilloud/ganon">http://github.com/BlakeGuilloud/ganon</a>
+                  </span> */}
+                </div>
+                <p>
+                  Coming soon..
+                </p>
+              </div>
+              <div className="item">
+                <div className="item__header">
                   <h2>RCC-CLI</h2>
                   <span className="item__header-pipe">
                     |
